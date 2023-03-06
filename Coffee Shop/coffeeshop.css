@@ -1,0 +1,100 @@
+.available-coffee{
+	color: black;
+	background-color: green;
+	height:200px;
+	width: 250px;
+	padding: 20px;
+}
+.out-of-stock{
+	background-color: grey;
+	border: medium double red;
+	border-top: thick solid red;
+	font-size: large;
+	font-family: Georgia;
+}
+.in-stock{
+	border: thick groove blue;
+}
+.img-div{
+	height: 50px;
+	width: 50px;
+}
+#Mocha{
+	color:red;
+	height:200px;
+	width: 250px;
+}
+.pricing{
+	width:100%;
+	border: 4px solid green;
+	font-family: "Georgia";
+	text-align: center;
+}
+.menu-heading{
+	color: #168104;
+	position: sticky;
+	top: 10px;
+}
+th{
+	background-color: #32a87d;
+	height: 50px;
+	color: white;
+	font-size: 22px;
+}
+td{
+	height: 50px;
+	font-size: 21px;
+	color: #7c4c29;
+}
+.alert{
+	display: none;
+}
+.tr-out-of-stock:hover{
+	background-color: #ffcccc;
+}
+.tr-in-stock:hover{
+	background-color: #ccffe6;
+}
+.footer{
+	background-color: #272727;
+	color: white;
+	height: 60px;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+}
+.child1{
+	height: 50%;
+	text-align: left;
+	position: relative;
+	left: 300px;
+	top: 20px;
+}
+.child2{
+	height: 50%;
+	text-align: right;
+	position: relative;
+	right: 300px;
+	bottom: 10px;
+}
+.footer [href]{
+	color: red;
+}
+div{
+	margin: 0px 40px 0px 40px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	.logo{
+		margin-left: 0px;
+	}
+	.child1{
+		position: relative;
+		left: 25px;
+	}
+	.child2{
+		position: relative;
+		right: 25px;
+	}
+}

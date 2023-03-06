@@ -1,0 +1,157 @@
+body{
+	margin: 0px;
+}
+.title-bar{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	width: 100%;
+	background-color: #75341c;
+	z-index: 100;
+}
+.heading{
+	margin: 20px;
+	margin-left: 50px;
+	font-family: "Algerian";
+	font-size: 40px;
+	color: white;
+	display: inline-block;
+}
+.div-logo{
+	height: 100%;
+	text-align: center;
+	margin: 10px;
+	margin-left: 40px;
+	float: left;
+}
+.logo-text{
+	display: block;
+	font-family: "Algerian";
+	color: white;
+}
+.nav-tab{
+	float: right;
+	height: 100%;
+	padding-top: 36px;
+}
+.nav-tab a{
+	color: white;
+	font-size: 25px;
+	font-weight: 700;
+	font-family: "Helvetica Neue";
+	padding-right: 80px;
+	display: inline-block;
+}
+.site-content{
+	position: absolute;
+	top: 78px;
+	width: 100%;
+	display: block;
+}
+.img-content{
+	background-image: url("coffee-bar.jpg");
+	height: 900px;
+	width: 1500px;
+	display: block;
+}
+.quote{
+	position: relative;
+	top: 10px;
+	left: 30%;
+	color: #070807;
+	font-family: "Helvetica Neue";
+	display: block;
+}
+.process{
+	position: relative;
+	top: 70px;
+	left: 25%;
+	color: #940808;
+	font-size: 50px;
+	font-family: "Helvetica Neue";
+	display: block;
+}
+.quote2{
+	position: relative;
+	top: 10px;
+	left: 20%;
+	color: #070807;
+	font-family: "Helvetica Neue";
+	display: block;
+}
+.pricing{
+	z-index: 10;
+	width:80%;
+	border: 4px solid green;
+	font-family: "Georgia";
+	text-align: center;
+	margin: 40px;
+}
+.menu-heading{
+	color: #168104;
+	position: sticky;
+	top: 10px;
+}
+th{
+	background-color: #32a87d;
+	height: 50px;
+	color: white;
+	font-size: 22px;
+}
+td{
+	height: 50px;
+	font-size: 21px;
+	color: white;
+	border: 2px dotted green;
+}
+.tr-out-of-stock:hover{
+	background-color: #Fd3131;
+}
+.tr-in-stock:hover{
+	background-color: #580808;
+}
+.footer{
+	background-color: #272727;
+	color: white;
+	height: 60px;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+}
+.child1{
+	height: 50%;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+.img-div{
+	height: 100px;
+	width: 100px;
+	display: block;
+}
+.td-text{
+	padding-top: 20px;
+	display: inline-block;
+}
+.signin-section{
+	width: 100%;
+}
+#signin{
+	margin-left: 600px;
+}
+.form{
+	width: 200px;
+	margin-left: 570px;
+}
+.form input{
+	padding: 10px;
+	margin: 10px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	.quote{
+	text-align: left;
+	}
+}
